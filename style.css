@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+
+  #container{
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    height: 100vh;
+    min-width: 1600px;
+  }
+
+  /* ----- Topo ----- */
+
+  #topo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    max-width: 1980px;
+  }
+
+  .logo img{
+    cursor: pointer;
+  }
+
+  .nav img{
+    margin-left: 20px;
+    background-color: #FFFFFF33;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  /* ----- Conteudo ----- */
+
+  #conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    max-width: 1980px;
+  }
+
+  .c-conteudo{
+    width: 48%;
+  }
+
+  .c-conteudo-div{
+    width: 500px;
+    margin-left: 35%;
+
+  }
+
+  .c-conteudo-div h4{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .c-conteudo-div h1{
+    font-size: 4.0em;
+    font-family: "Andada Pro", serif;
+    text-transform: uppercase;
+    line-height: 70px;
+  }
+
+  .c-conteudo-div p{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 35px;
+  }
+
+  .conteudo-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .conteudo-button button{
+    width: 48%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-play{
+    background-color: #F1A5B1;
+    border: none;
+  }
+
+  .btn-trailer{
+    border: 2px solid #F1A5B1;
+    background-color: transparent;
+    color: white;
+  }
+
+  .conteudo-button button img{
+    margin-right: 10px;
+  }
+
+  .c-image{
+    width: 50%;
+  }
+
+  /* ----- Hover ----- */
+
+  .nav img:hover{
+    background-color: #42404033;
+  }
+
+  .btn-play:hover{
+    background-color: #fa899a;
+  }
+
+  .btn-trailer:hover{
+    background-color: #acaaaa21;
+  }
